@@ -330,6 +330,7 @@ public class Main {
         System.out.println("Поздравляю, вы угадали! Количество попыток: "+k);
 
     }
+    //4.2
     public int findLast (int[] arr, int x){
         int k=0;
         int i=arr.length-1;
@@ -343,6 +344,7 @@ public class Main {
         return -1;
 
     }
+    //4.4
     public int[]add (int[] arr, int x, int pos){
         int[] nov=new int[arr.length+1];
         for(int i=0;i<pos;i++){
@@ -354,6 +356,7 @@ public class Main {
         }
         return nov;
     }
+    //4.6
     public void reverse (int[] arr){
         int[] arr1=new int[arr.length];
         for(int i=0;i<arr.length;i++){
@@ -364,6 +367,7 @@ public class Main {
         }
         System.out.println();
     }
+    //4.8
     public int[] concat (int[] arr1,int[] arr2){
         int[] arr3=new int[arr1.length+arr2.length];
         for(int i=0;i< arr1.length;i++){
@@ -377,6 +381,7 @@ public class Main {
         }
         return arr3;
     }
+    //4.10
     public int[] deleteNegative (int[] arr){
         int count=0;
         for(int i:arr){

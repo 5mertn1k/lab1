@@ -153,8 +153,9 @@ public class Main {
         System.out.println("Массив, объединяющий оба:");
         int[] massiv3=m.concat(massiv,massiv2);
         for(int i:massiv3){
-            System.out.println(i+" ");
+            System.out.print(i+" ");
         }
+        System.out.println();
         //4.10
         System.out.println("Введите количество чисел в массиве:");
         int qwer5=in.nextInt();
@@ -167,8 +168,10 @@ public class Main {
         System.out.println("Массив без отрицательных чисел:");
         int[] last1=m.deleteNegative(last);
         for(int i:last1){
-            System.out.println(i+" ");
+            System.out.print(i+" ");
         }
+        System.out.println();
+        in.close();
 
     }
 
@@ -268,8 +271,9 @@ public class Main {
                 System.out.println("Воскресенье");
                 break;
             default:
-                System.out.println("это не день недели");
+                System.out.println("это не день недели"); break;
         }
+
     }
     //3.2
     public String reverseListNums(int x){
